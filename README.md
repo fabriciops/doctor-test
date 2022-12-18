@@ -1,10 +1,10 @@
 
 
-## Capacidades não atendidas.
+# Capacidades não atendidas.
 Diferencial:
 - Criar o ambiente usando docker e se preferir usar docker-compose também para os
 serviços do php e banco de dados.
-# Tive problemas com permissão do docker em meu ambiente, terei de explorar
+### Tive problemas com permissão do docker em meu ambiente, terei de explorar
 
 ## Capacidades a ser mais exploradas.
 # Testes
