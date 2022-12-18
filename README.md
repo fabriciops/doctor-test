@@ -1,13 +1,19 @@
+# Projeto para sênior backend PHP (v1.1)
+* É necessário fazer login para obter a hash para explorar os serviços da aplicação.
+ip:0000/api/v1/login
 
+Nessa rota você receberar um token o qual tem que ser utilizado no Authorization
+TYPE Bearer Token
 
 # Capacidades não atendidas.
 Diferencial:
 - Criar o ambiente usando docker e se preferir usar docker-compose também para os
 serviços do php e banco de dados.
-* Tive problemas com permissão do docker em meu ambiente, terei de explorar
+* Tive problemas com permissão do docker em meu ambiente, terei de explorar. Breve verifico e subo um yml
 
 ## Capacidades a ser mais exploradas.
-# Testes
+ * Testes
+ * Preciso explorar mais os testes quando envolvido a autenticação JWT
 ## Executar filas
 php artisan queue:work
 
@@ -24,3 +30,6 @@ composer require laravel/ui
 
 # implement erro, colar o namespace direto no VENDOR/JWT para instanciar na aplicação
 doctor-test/vendor/tymon/jwt-auth/src/Contracts/JWTSubject.php
+
+* Importante ressaltar que a lib JWT tem alguns erros quando aplicado as configurações. O interessante que  composer
+Parece não consegui registrar o serviço na aplicação, isso é um ponto a ser mantido e explorado para demais projetos futuros.
